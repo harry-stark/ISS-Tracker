@@ -9,4 +9,4 @@ To use:
 
 1) Open terminal in the directory where you downloaded the python script.
 
-2) Use Command:**python ISS-Tracker.py**
+2) Use Command:**python ISS-tracker.py**
