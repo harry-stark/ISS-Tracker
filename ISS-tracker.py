@@ -9,7 +9,7 @@ response = urllib.request.urlopen(req)
 
 obj = json.loads(response.read())
 z=time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(obj['timestamp']))
-print("At Time ",z," the ISS Credentials are:")
+print("At Time ",z," ISS bearings are:")
 for a,b in obj.items():
      print(a,":",b)
 
